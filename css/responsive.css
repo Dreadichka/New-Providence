@@ -1,0 +1,1231 @@
+/*-------------------------------------------------- Responsive Burger --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 854px){
+    body.en .features__item i{
+       color: #f00;
+    }
+}
+
+@media (max-width: 854px){
+    .burger{
+        display: block;
+    }
+
+    .left__nav,
+    .right__nav{
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+    .header{
+        padding: 25px 0;
+    }
+
+    .slide__out-menu{
+        width: 100%;
+    }
+
+    .slide__out-menu.active{
+        text-align: center;
+    }
+
+    a.slide__out-link{
+        margin: 15px 0;
+    }
+}
+
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .header{
+        padding: 25px 0;
+    }
+}
+@media (orientation: landscape) and (max-height: 360px){
+
+    .slide__out-menu{
+        width: 100%;
+        padding: 35px 0;
+    }
+
+    .slide__out-menu.active{
+        text-align: center;
+    }
+
+    .slide__out-menu i.fa-times-circle{
+        top: 5%;
+    }
+
+    .slide__out-nav{
+        margin: 5px 0;
+    }
+
+    a.slide__out-logo{
+        font-size: 15px;
+    }
+
+    a.slide__out-link{
+        margin: 10px 0;
+    }
+
+    .slide__out-getApp{
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    .slide__out-getApp i{
+        margin-right: 5px;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 320px){
+    .header.fixed{
+        padding: 15px 0;
+    }
+
+    .slide__out-menu{
+        padding: 20px 0;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 280px){
+    .slide__out-menu i.fa-times-circle{
+        right: 3%;
+    }
+
+    a.slide__out-link{
+        margin: 5px 0;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Burger --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive Intro --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 1024px){
+    .intro__inner{
+        padding-top: 150px;
+    }
+
+    h1{
+        font-size: 52px !important;
+    }
+
+    p.intro__text{
+        padding: 40px 30px 50px 30px;
+    }
+}
+
+@media (max-width: 854px){
+    .intro__inner{
+        padding-top: 125px;
+    }
+
+    h1{
+        font-size: 45px !important;
+    }
+
+    p.intro__text{
+        padding: 40px 30px;
+    }
+
+    .intro__btn{
+        margin-bottom: 50px;
+    }
+
+    .intro__img img{
+        width: 30%;
+    }
+}
+
+@media (max-width: 640px){
+    .intro__inner{
+        padding-top: 110px;
+    }
+
+    h1{
+        font-size: 39px !important;
+    }
+
+    p.text{
+        font-size: 18px;
+    }
+
+    p.intro__text{
+        padding: 30px;
+    }
+
+    .intro__img img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 480px){
+    .intro__inner{
+        padding-top: 95px;
+    }
+
+    h1{
+        font-size: 35px !important;
+    }
+}
+
+@media (max-width: 375px){
+    .intro__inner{
+        padding-top: 95px;
+    }
+
+    h1{
+        font-size: 30px !important;
+    }
+
+    p.text{
+        font-size: 16px;
+    }
+
+    p.intro__text{
+        padding: 20px;
+    }
+
+    .intro__img img{
+        width: 55%;
+    }
+}
+
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .intro__inner{
+        padding-top: 100px;
+    }
+
+    .intro__img{
+        display: none;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 375px){
+    .intro__inner{
+        padding-top: 90px;
+    }
+
+    h1{
+        font-size: 39px !important;
+    }
+
+    p.intro__text{
+        padding: 30px;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 360px){
+    .intro__inner{
+        padding-top: 80px;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 320px){
+    h1{
+        font-size: 35px !important;
+    }
+
+    p.intro__text{
+        padding: 20px;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Intro --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive Features --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 1300px){
+    .features__items{
+        padding: 100px 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .features__items{
+        padding: 80px 20px;
+    }
+
+    .features__item i{
+        font-size: 30px;
+    }
+
+    .features__title{
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 854px){
+    .features__items{
+        padding: 0 20px;
+    }
+
+    .features__item{
+        width: 100%;
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 640px){
+    .features__item i{
+        font-size: 25px;
+    }
+
+    .features__title{
+        margin: 20px 0;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px){
+    .features__item{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 375px){
+    .features__item i{
+        font-size: 20px;
+    }
+
+    .features__title{
+        font-size: 22px;
+    }
+}
+
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .features__item i{
+        font-size: 25px;
+    }
+
+    .features__title{
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    p.text{
+        font-size: 18px;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 320px){
+    .features__item{
+        margin-top: 30px;
+    }
+
+    .features__item i{
+        font-size: 20px;
+    }
+
+    .features__title{
+        font-size: 22px;
+    }
+
+    p.text{
+        font-size: 16px;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Features --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive Phone --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 1300px){
+    .phone__inner{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .phone__img{
+        width: 50%;
+    }
+
+    .phone__about-text{
+        margin: 35px 0;
+    }
+
+    .section__title{
+        font-size: 39px;
+    }
+}
+
+@media (max-width: 910px){
+    .phone__img{
+        display: none;
+    }
+
+    .phone__about{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 854px){
+    .phone__inner{
+        margin-top: 50px;
+    }
+
+    .section__title{
+        font-size: 35px;
+    }
+
+    .phone__about-text{
+        margin: 25px 0;
+    }
+}
+
+@media (max-width: 480px){
+    .phone__inner{
+        margin-top: 50px;
+    }
+
+    .section__title{
+        font-size: 32px;
+    }
+
+    .phone__about-text{
+        margin: 25px 0;
+    }
+
+    .phone__about-link:first-child{
+        padding: 8px 15px;
+    }
+
+    .phone__about-link:first-child i{
+        margin-left: 15px;
+    }
+
+    .phone__about-link:last-child{
+        padding: 8px 20px;
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 420px){
+    .section__title{
+        font-size: 27px;
+    }
+
+    .phone__about-link{
+        font-size: 14px;
+    }
+
+    .phone__about-link:last-child{
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 360px){
+    .section__title{
+        font-size: 25px;
+    }
+
+    .phone__about-links{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .phone__about-link{
+        margin-bottom: 20px;
+    }
+
+    .phone__about-link:last-child{
+        margin-left: 0;
+    }
+}
+
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .section__title{
+        font-size: 30px;
+    }
+
+    p.text{
+        font-size: 14px;
+    }
+
+    .phone__about-link:first-child{
+        padding: 8px 15px;
+    }
+
+    .phone__about-link:first-child i{
+        margin-left: 20px;
+    }
+
+    .phone__about-link:last-child{
+        padding: 8px 20px;
+        margin-left: 20px;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Phone --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive Map --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (min-width: 1650px){
+    .map__img{
+        width: 50%;
+    }
+}
+
+@media (min-width: 1280px){
+    .map__img{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1280px){
+    .map__img{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1024px){
+    .map{
+        margin: 200px 0 125px 0;
+    }
+
+    .map__inner{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 911px){
+    .map{
+        margin: 125px 0;
+    }
+}
+
+@media (max-width: 854px){
+    .map{
+        margin: 50px 0;
+    }
+
+    .map__inner{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .map__about{
+        max-width: 100%;
+    }
+
+    .partners{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -ms-align-items: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .partners__title{
+        margin-bottom: 0;
+    }
+
+    .map__img{
+        position: relative;
+        margin-top: 50px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px){
+    .map{
+        margin: 50px 0;
+    }
+
+    .map__about-text{
+        margin: 40px 0;
+    }
+
+    .partners{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .partner__img[alt*="DropBox"]{
+       margin: 25px 0;
+    }
+
+    .partner__img:last-child{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 360px){
+    .partners__title{
+        font-size: 12px;
+    }
+
+    .partner__img{
+        width: 35%;
+    }
+}
+
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .map__about-text{
+        margin: 40px 0;
+    }
+
+    .map__img{
+        width: 60%;
+    }
+
+    .partner__img{
+        width: 15%;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Map --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive GeIt --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 854px){
+    form.geIt__form, form.subscribe__form{
+        margin-top: 40px;
+        border: none;
+        border-radius: 0;
+        display: inline-flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .geIt__form input, .subscribe__form input{
+        max-width: 235px;
+        width: 235px;
+        padding: 12px 15px;
+        margin-top: 40px;
+        border: 1px solid #CBCBCE;
+        border-radius: 25px;
+        margin-bottom: 15px;
+    }
+
+    .geIt__form a, .subscribe__form a{
+        padding: 9px 20px;
+    }
+
+    .geIt__form a i{
+        margin-left: 15px;
+    }
+
+    .getIt__bottom{
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 480px){
+    .getIt__inner{
+        margin: 50px 0;
+    }
+
+    form.geIt__form, form.subscribe__form{
+        margin-top: 0;
+    }
+
+    .geIt__form input, .subscribe__form input{
+        margin-top: 25px;
+    }
+
+    .getIt__bottom{
+        margin-top: 35px;
+    }
+
+    .getIt__bottom button, .footer__about button{
+        min-width: 130px;
+        padding: 5px 0px 10px 10px;
+        justify-content: normal;
+    }
+
+    .getIt__bottom button i, .footer__about button i{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
+
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .getIt__inner{
+        margin: 50px 0;
+    }
+
+    form.geIt__form, form.subscribe__form{
+        margin-top: 25px;
+        border: 1px solid #CBCBCE;
+        border-radius: 25px;
+        display: inline-block;
+        padding: 8px 5px;
+    }
+
+    .getIt__bottom button, .footer__about button{
+        min-width: 130px;
+        padding: 5px 0px 10px 10px;
+        justify-content: normal;
+    }
+
+    .getIt__bottom button i, .footer__about button i{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .geIt__form input, .subscribe__form input{
+        margin-top: 0;
+        border: none;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+
+    .geIt__form a, .subscribe__form a{
+        padding: 15px 20px;
+    }
+
+    .getIt__bottom{
+        margin-top: 25px;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive GeIt --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive Testimonials --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 854px){
+    .testimonials__stars{
+        margin: 35px 0;
+    }
+}
+
+@media (max-width: 720px){
+    .testimonials__item{
+        width: 80%;
+    }
+
+    .testimonials__img{
+        box-shadow: 25px 25px 50px rgb(0 0 0 / 20%);
+    }
+    .testimonials__title{
+        margin: 50px 0 35px 0;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 420px){
+    .testimonials__img{
+        box-shadow: 25px 20px 50px rgb(0 0 0 / 20%);
+        width: 35%;
+    }
+
+    .testimonials__title{
+        margin: 35px 0;
+        font-size: 25px;
+    }
+
+    .testimonials__stars{
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 360px){
+    .testimonials__img{
+        box-shadow: none;
+    }
+
+    .testimonials__title{
+        font-size: 22px;
+    }
+}
+
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .testimonials__img{
+        box-shadow: none;
+        width: 25%;
+    }
+
+    .testimonials__title{
+        font-size: 28px;
+        margin: 50px 0 35px 0;
+    }
+
+    .testimonials__stars{
+        margin: 20px 0;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 320px){
+    .testimonials__title{
+        margin: 35px 0;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 280px){
+    .testimonials__img{
+        width: 20%;
+    }
+
+    .testimonials__title{
+        margin: 25px 0;
+        font-size: 22px;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Testimonials --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive Plan --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 1024px){
+    .plan__inner{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .plan__btns{
+        margin: 75px 0;
+    }
+
+    .plan__about-bottom{
+        margin-top: 25px;
+    }
+
+    .plan__items{
+        position: relative;
+        margin-top: 70px;
+    }
+
+    .plan__advantages{
+        margin-bottom: 100px;
+    }
+
+    .plan__text{
+        margin: 0;
+    }
+}
+
+@media (max-width: 854px){
+    .plan__btns{
+        margin: 75px 0 35px 0;
+        padding: 15px 5px;
+    }
+
+    .plan__btns a{
+        padding: 10px 20px;
+    }
+
+    .plan__title{
+        font-size: 26px;
+    }
+
+    .plan__price{
+        padding: 7px 15px;
+        margin: 15px 0;
+    }
+
+    .plan__advantages{
+        margin-bottom: 70px;
+    }
+
+    .plan__btn{
+        padding: 10px 0px;
+        width: 65%;
+    }
+}
+
+@media (max-width: 720px){
+    .plan__inner{
+        margin-top: 100px;
+    }
+
+    .plan__title{
+        font-size: 22px;
+    }
+
+    .plan__price{
+        padding: 5px 10px;
+        margin: 10px 0;
+        font-size: 9px;
+    }
+
+    .plan__advantage{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 620px){
+    .plan__items{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        margin-top: 45px;
+    }
+
+    .plan__item{
+        padding: 15px;
+    }
+
+    .plan__btn{
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 480px){
+    .plan__inner{
+        margin-top: 50px;
+    }
+
+    .plan__items{
+        width: 70%;
+    }
+
+    .plan__item{
+        padding: 15px 5px;
+    }
+
+    .plan__title{
+        font-size: 19px;
+    }
+
+    .plan__text br{
+        display: none;
+    }
+
+    .plan__advantages{
+        margin-bottom: 50px;
+    }
+
+    .plan__btn{
+        padding: 5px 0;
+        width: 90%;
+    }
+}
+
+@media (max-width: 360px){
+    .plan__items{
+        width: 80%;
+    }
+}
+
+@media (max-width: 360px){
+    .plan__btns{
+        margin: 55px 0 35px 0;
+    }
+
+    .plan__items{
+        width: 85%;
+    }
+
+    .plan__btn{
+        font-size: 14px;
+        width: 65%;
+    }
+}
+
+@media (max-width: 320px){
+    .plan__text{
+        font-size: 14px;
+    }
+
+    .plan__advantages{
+        margin-bottom: 40px;
+    }
+
+    .plan__advantage{
+        font-size: 12px;
+    }
+}
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .plan__inner{
+        margin-top: 50px;
+    }
+
+    .plan__btns{
+        margin: 55px 0 35px 0;
+    }
+
+    .plan__item{
+        padding: 15px 10px;
+    }
+
+    .plan__title{
+        font-size: 22px;
+    }
+
+    .plan__price{
+        font-size: 9px;
+        padding: 5px 10px;
+        margin: 10px 0;
+    }
+
+    .plan__text br{
+        display: none;
+    }
+
+    .plan__advantages{
+        margin-bottom: 50px;
+    }
+
+    .plan__advantage{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .plan__btn{
+        margin-bottom: 5px;
+        width: 80%;
+        padding: 5px 0;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 375px){
+    .plan__title{
+        font-size: 18px;
+    }
+
+    .plan__advantages{
+        margin-bottom: 40px;
+    }
+
+    .plan__btn{
+        font-size: 14px;
+        width: 65%;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 360px){
+    .plan__title{
+        font-size: 16px;
+    }
+
+    .plan__price{
+        font-size: 8px;
+        padding: 3px 8px;
+        margin: 7px 0;
+    }
+
+    .plan__advantage{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+
+@media (orientation: landscape) and (max-height: 320px){
+    .plan__item{
+        padding: 10px;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Plan --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive Subscribe --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 720px){
+    .subscribe{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 480px){
+    .subscribe{
+        margin-top: 50px;
+    }
+}
+
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .subscribe{
+        margin-top: 50px;
+    }
+
+    form.subscribe__form{
+        padding: 8px 5px 5px 8px;
+    }
+
+    .subscribe__form input{
+        padding: 8px 15px;
+    }
+
+    .subscribe__form a{
+        padding: 8px 15px;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Subscribe --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive Footer --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 1024px){
+    .footer__about{
+        flex-basis: 40%;
+    }
+}
+
+@media (max-width: 854px){
+    .footer__inner{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer__about{
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){
+    .footer{
+        margin: 50px 0;
+    }
+
+    .footer__about-text{
+        margin: 30px 0;
+    }
+
+    .footer__about button{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer__nav{
+        flex-wrap: wrap;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer__nav .more,
+    .footer__nav .about,
+    .footer__nav .support{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .footer__socials a{
+        margin-right: 20px;
+    }
+}
+
+/************************* Adaptive And With Height Landscape *************************/
+
+@media (orientation: landscape) and (max-height: 411px){
+    .footer{
+        margin-top: 50px;
+    }
+
+    .footer__about-text{
+        margin: 30px 0;
+    }
+
+    .footer__about button{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer__nav{
+        margin-top: 25px;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Footer --------------------------------------------------*/
+
+
+/*-------------------------------------------------- Responsive Copyrights --------------------------------------------------*/
+
+/************************* Adaptive Only With Width *************************/
+
+@media (max-width: 720px){
+    .copyrights__inner{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .copyright__logo{
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 420px){
+    .copyrights__text{
+        text-align: center;
+    }
+}
+
+/*-------------------------------------------------- ./Responsive Copyrights --------------------------------------------------*/
