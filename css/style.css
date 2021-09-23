@@ -1,8 +1,9 @@
 /*--------------------------------------------------Fonts--------------------------------------------------*/
 
-@font-face{
-    font-family: "Roboto-Regular";
-    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), local('Roboto-Regular'), url(../fonts/Roboto/Roboto-Regular.ttf) format('ttf');
+  font-display: swap;
 }
 
 @font-face{
@@ -38,6 +39,7 @@
 @font-face{
     font-family: "Raleway-Regular";
     src: url(../fonts/Raleway/Raleway-Regular.ttf);
+    f;
 }
 /*--------------------------------------------------Main Settings--------------------------------------------------*/
 
@@ -48,7 +50,6 @@
     padding: 0;
     margin: 0;
 }
-
 body{
     margin: 0;
     padding: 0;
